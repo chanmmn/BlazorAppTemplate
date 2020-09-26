@@ -1,0 +1,24 @@
+﻿@page "/ListPerson"
+@using BlazorAppTemplate.Data
+<h3>ListPerson</h3>
+
+<DataList Data="@People">
+    @context.Salutation @context.FamilyName, @context.GivenName
+</DataList>
+
+@code {
+    public IEnumerable<Person> People;
+    //Person person = new Person();
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        People = new Person[]
+        {
+            new Person { Salutation = "Mr", GivenName = "Bob", FamilyName = "Geldof" },
+            new Person { Salutation = "Mrs", GivenName = "Angela", FamilyName = "Rippon" },
+            new Person { Salutation = "Mr", GivenName = "Freddie", FamilyName = "Mercury" }
+            };
+    }
+
+}

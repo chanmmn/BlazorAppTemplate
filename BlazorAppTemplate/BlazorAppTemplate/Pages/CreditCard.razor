@@ -1,0 +1,19 @@
+﻿<div class="pay-card">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="@imageUrl" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">@productName</h5>
+            <p class="card-text">@productDescription</p>
+            <a href="" class="btn btn-primary">Proceed</a>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string imageUrl =
+        @"image/1200px-Visa.svg.png";
+    private string productName =
+        "Credit Card";
+    private string productDescription =
+        "You won't believe how great this payment is until you actually use it yourself.";
+}
