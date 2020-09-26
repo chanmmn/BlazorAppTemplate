@@ -2,8 +2,14 @@
 @using BlazorAppTemplate.Data
 <h3>ListPerson</h3>
 
+<h3>List all fields</h3>
 <DataList Data="@People">
     @context.Salutation @context.FamilyName, @context.GivenName
+</DataList>
+<br/>
+<h3>List 2 fields</h3>
+<DataList Data="@People">
+    @context.Salutation @context.FamilyName
 </DataList>
 
 @code {
