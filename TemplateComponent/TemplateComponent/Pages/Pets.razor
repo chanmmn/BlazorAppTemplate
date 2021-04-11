@@ -1,0 +1,32 @@
+﻿@page "/pets"
+
+<h1>Pets</h1>
+
+<TableTemplate Items="pets" Context="pet">
+    <TableHeader>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Pet Type</th>
+    </TableHeader>
+    <RowTemplate>
+        <td>@pet.PetId</td>
+        <td>@pet.Name</td>
+        <td>@pet.PetType</td>
+    </RowTemplate>
+</TableTemplate>
+
+@code {
+    private List<Pet> pets = new()
+    {
+        new Pet { PetId = 2, Name = "Mr. Bigglesworth", PetType="Dog" },
+        new Pet { PetId = 4, Name = "Salem Saberhagen", PetType = "Dog" },
+        new Pet { PetId = 7, Name = "K-9", PetType = "Cat" }
+    };
+
+    private class Pet
+    {
+        public int PetId { get; set; }
+        public string Name { get; set; }
+        public string PetType { get; set; }
+    }
+}
