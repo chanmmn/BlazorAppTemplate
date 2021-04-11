@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\test\\blazor\\TemplateComponent\\TemplateComponent\\TemplateComponent.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\BlazorAppTemplate\\TemplateComponent\\TemplateComponent\\TemplateComponent.csproj",
       "projectName": "TemplateComponent",
-      "projectPath": "C:\\test\\blazor\\TemplateComponent\\TemplateComponent\\TemplateComponent.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\BlazorAppTemplate\\TemplateComponent\\TemplateComponent\\TemplateComponent.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\test\\blazor\\TemplateComponent\\TemplateComponent\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\BlazorAppTemplate\\TemplateComponent\\TemplateComponent\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

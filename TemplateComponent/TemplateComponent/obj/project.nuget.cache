@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+RKnPlNidnP2o+RVGw4rDrvMW1C8vo9QTcb5DEP8P+vjUdVznRBx7yFY9PWd8ynWPQi1Q3agqnOv3muvlqJOaw==",
+  "dgSpecHash": "mKSIxw1gaViXYd1prQJDCB229N4/SVdkt4iVpUgy7gwAA+f7hb4OWsPzDFe3AG6qY0Tgz+zfpExBdWge67BesQ==",
   "success": true,
-  "projectFilePath": "C:\\test\\blazor\\TemplateComponent\\TemplateComponent\\TemplateComponent.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\BlazorAppTemplate\\TemplateComponent\\TemplateComponent\\TemplateComponent.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
